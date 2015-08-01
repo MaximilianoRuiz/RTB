@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrincipalMenu">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="185dp"
+        android:id="@+id/btnGastronomia"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="upGastronomia"
+        android:background="@drawable/gastronomia" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="185dp"
+        android:id="@+id/btnIndumentaria"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="makeToast"
+        android:background="@drawable/indumentaria" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnOcio"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/btnGastronomia"
+        android:layout_above="@+id/btnIndumentaria"
+        android:background="@drawable/ocio"
+        android:onClick="makeToast"
+        android:clickable="true"/>
+</RelativeLayout>
+
+
